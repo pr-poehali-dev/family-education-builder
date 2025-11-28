@@ -135,11 +135,210 @@ const articles = [
   },
 ];
 
+const library = [
+  {
+    id: 1,
+    title: 'Математика. 5 класс. Учебник ФГОС',
+    author: 'Мерзляк А.Г., Полонский В.Б.',
+    subject: 'Математика',
+    type: 'Учебник',
+    grade: '5 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 304,
+    format: 'PDF',
+  },
+  {
+    id: 2,
+    title: 'Математика. Углубленное изучение. 7 класс',
+    author: 'Виленкин Н.Я., Жохов В.И.',
+    subject: 'Математика',
+    type: 'Учебник',
+    grade: '7 класс',
+    specialization: 'Углубленный уровень',
+    year: 2023,
+    pages: 368,
+    format: 'PDF',
+  },
+  {
+    id: 3,
+    title: 'Дидактические материалы по математике. 6 класс',
+    author: 'Чесноков А.С., Нешков К.И.',
+    subject: 'Математика',
+    type: 'Дидактические материалы',
+    grade: '6 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 160,
+    format: 'PDF',
+  },
+  {
+    id: 4,
+    title: 'Русский язык. 5 класс. Учебник ФГОС',
+    author: 'Ладыженская Т.А., Баранов М.Т.',
+    subject: 'Русский язык',
+    type: 'Учебник',
+    grade: '5 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 320,
+    format: 'PDF',
+  },
+  {
+    id: 5,
+    title: 'Методическое пособие к учебнику «Русский язык. 6 класс»',
+    author: 'Разумовская М.М.',
+    subject: 'Русский язык',
+    type: 'Методическое пособие',
+    grade: '6 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 224,
+    format: 'PDF',
+  },
+  {
+    id: 6,
+    title: 'Физика. 7 класс. Учебник ФГОС',
+    author: 'Перышкин А.В.',
+    subject: 'Физика',
+    type: 'Учебник',
+    grade: '7 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 224,
+    format: 'PDF',
+  },
+  {
+    id: 7,
+    title: 'Физика. Углубленный уровень. 8 класс',
+    author: 'Генденштейн Л.Э., Кирик Л.А.',
+    subject: 'Физика',
+    type: 'Учебник',
+    grade: '8 класс',
+    specialization: 'Углубленный уровень',
+    year: 2023,
+    pages: 272,
+    format: 'PDF',
+  },
+  {
+    id: 8,
+    title: 'Сборник задач по физике. 7-9 классы',
+    author: 'Лукашик В.И., Иванова Е.В.',
+    subject: 'Физика',
+    type: 'Дидактические материалы',
+    grade: '7-9 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 240,
+    format: 'PDF',
+  },
+  {
+    id: 9,
+    title: 'Английский язык. 5 класс. Учебник ФГОС',
+    author: 'Ваулина Ю.Е., Дули Д.',
+    subject: 'Английский язык',
+    type: 'Учебник',
+    grade: '5 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 164,
+    format: 'PDF',
+  },
+  {
+    id: 10,
+    title: 'Грамматика английского языка. Сборник упражнений',
+    author: 'Барашкова Е.А.',
+    subject: 'Английский язык',
+    type: 'Дидактические материалы',
+    grade: '5-6 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 192,
+    format: 'PDF',
+  },
+  {
+    id: 11,
+    title: 'Биология. 7 класс. Учебник ФГОС',
+    author: 'Пасечник В.В., Суматохин С.В.',
+    subject: 'Биология',
+    type: 'Учебник',
+    grade: '7 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 256,
+    format: 'PDF',
+  },
+  {
+    id: 12,
+    title: 'Биология. Практические работы. 8 класс',
+    author: 'Колесов Д.В., Маш Р.Д.',
+    subject: 'Биология',
+    type: 'Методическое пособие',
+    grade: '8 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 128,
+    format: 'PDF',
+  },
+  {
+    id: 13,
+    title: 'Химия. 8 класс. Учебник ФГОС',
+    author: 'Габриелян О.С.',
+    subject: 'Химия',
+    type: 'Учебник',
+    grade: '8 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 288,
+    format: 'PDF',
+  },
+  {
+    id: 14,
+    title: 'Химия. Задачник с помощником. 8-9 классы',
+    author: 'Гара Н.Н., Габрусева Н.И.',
+    subject: 'Химия',
+    type: 'Дидактические материалы',
+    grade: '8-9 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 176,
+    format: 'PDF',
+  },
+  {
+    id: 15,
+    title: 'История России. 6 класс. Учебник ФГОС',
+    author: 'Арсентьев Н.М., Данилов А.А.',
+    subject: 'История',
+    type: 'Учебник',
+    grade: '6 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 288,
+    format: 'PDF',
+  },
+  {
+    id: 16,
+    title: 'Контурные карты. История России. 7 класс',
+    author: 'Тороп В.В.',
+    subject: 'История',
+    type: 'Дидактические материалы',
+    grade: '7 класс',
+    specialization: 'Базовый уровень',
+    year: 2023,
+    pages: 32,
+    format: 'PDF',
+  },
+];
+
 export default function Index() {
   const [selectedSubjects, setSelectedSubjects] = useState<{ subject: string; hours: number }[]>([]);
   const [filterSubject, setFilterSubject] = useState<string>('all');
   const [filterExperience, setFilterExperience] = useState<number[]>([0]);
   const [filterPrice, setFilterPrice] = useState<number[]>([3000]);
+  const [libraryFilterSubject, setLibraryFilterSubject] = useState<string>('all');
+  const [libraryFilterType, setLibraryFilterType] = useState<string>('all');
+  const [libraryFilterSpecialization, setLibraryFilterSpecialization] = useState<string>('all');
+  const [librarySearchQuery, setLibrarySearchQuery] = useState<string>('');
 
   const addSubject = (subject: string) => {
     if (!selectedSubjects.find((s) => s.subject === subject)) {
@@ -164,6 +363,16 @@ export default function Index() {
     return subjectMatch && experienceMatch && priceMatch;
   });
 
+  const filteredLibrary = library.filter((book) => {
+    const subjectMatch = libraryFilterSubject === 'all' || book.subject === libraryFilterSubject;
+    const typeMatch = libraryFilterType === 'all' || book.type === libraryFilterType;
+    const specializationMatch = libraryFilterSpecialization === 'all' || book.specialization === libraryFilterSpecialization;
+    const searchMatch = librarySearchQuery === '' || 
+      book.title.toLowerCase().includes(librarySearchQuery.toLowerCase()) ||
+      book.author.toLowerCase().includes(librarySearchQuery.toLowerCase());
+    return subjectMatch && typeMatch && specializationMatch && searchMatch;
+  });
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
       <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
@@ -175,6 +384,9 @@ export default function Index() {
           <nav className="hidden md:flex gap-6">
             <a href="#constructor" className="text-foreground hover:text-primary transition-colors">
               Конструктор
+            </a>
+            <a href="#library" className="text-foreground hover:text-primary transition-colors">
+              Библиотека
             </a>
             <a href="#tutors" className="text-foreground hover:text-primary transition-colors">
               Репетиторы
@@ -297,6 +509,161 @@ export default function Index() {
                 )}
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      <section id="library" className="py-16 bg-white/50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <Icon name="Library" size={48} className="mx-auto mb-4 text-primary" />
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
+              Библиотека учебных материалов
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Учебники ФГОС, методические и дидактические пособия по всем предметам
+            </p>
+          </div>
+
+          <div className="max-w-7xl mx-auto">
+            <Card className="mb-8 border-2">
+              <CardHeader>
+                <CardTitle className="font-heading">Поиск материалов</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="space-y-4">
+                  <Input
+                    placeholder="Поиск по названию или автору..."
+                    value={librarySearchQuery}
+                    onChange={(e) => setLibrarySearchQuery(e.target.value)}
+                    className="text-base"
+                  />
+                </div>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="space-y-2">
+                    <Label>Предмет</Label>
+                    <Select value={libraryFilterSubject} onValueChange={setLibraryFilterSubject}>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Все предметы" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="all">Все предметы</SelectItem>
+                        {Array.from(new Set(library.map((b) => b.subject))).map((subject) => (
+                          <SelectItem key={subject} value={subject}>
+                            {subject}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label>Тип материала</Label>
+                    <Select value={libraryFilterType} onValueChange={setLibraryFilterType}>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Все типы" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="all">Все типы</SelectItem>
+                        {Array.from(new Set(library.map((b) => b.type))).map((type) => (
+                          <SelectItem key={type} value={type}>
+                            {type}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label>Уровень</Label>
+                    <Select value={libraryFilterSpecialization} onValueChange={setLibraryFilterSpecialization}>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Все уровни" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="all">Все уровни</SelectItem>
+                        {Array.from(new Set(library.map((b) => b.specialization))).map((spec) => (
+                          <SelectItem key={spec} value={spec}>
+                            {spec}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                </div>
+                {filteredLibrary.length > 0 && (
+                  <div className="pt-2">
+                    <p className="text-sm text-muted-foreground">
+                      Найдено материалов: <span className="font-semibold">{filteredLibrary.length}</span>
+                    </p>
+                  </div>
+                )}
+              </CardContent>
+            </Card>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredLibrary.map((book) => (
+                <Card key={book.id} className="hover:shadow-xl transition-shadow border-2">
+                  <CardHeader>
+                    <div className="flex items-start justify-between gap-2 mb-2">
+                      <Badge variant="secondary">{book.type}</Badge>
+                      <Badge variant="outline" className="text-xs">
+                        {book.format}
+                      </Badge>
+                    </div>
+                    <CardTitle className="font-heading text-lg leading-snug">{book.title}</CardTitle>
+                    <CardDescription className="text-sm">{book.author}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div className="flex items-center gap-1">
+                        <Icon name="BookOpen" size={14} className="text-muted-foreground" />
+                        <span className="text-muted-foreground">{book.subject}</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Icon name="GraduationCap" size={14} className="text-muted-foreground" />
+                        <span className="text-muted-foreground">{book.grade}</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Icon name="FileText" size={14} className="text-muted-foreground" />
+                        <span className="text-muted-foreground">{book.pages} стр.</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Icon name="Calendar" size={14} className="text-muted-foreground" />
+                        <span className="text-muted-foreground">{book.year} г.</span>
+                      </div>
+                    </div>
+                    <div className="pt-2">
+                      <Badge className="w-full justify-center py-1">
+                        {book.specialization}
+                      </Badge>
+                    </div>
+                    <div className="grid grid-cols-2 gap-2">
+                      <Button variant="outline" size="sm" className="w-full">
+                        <Icon name="Eye" size={16} className="mr-1" />
+                        Просмотр
+                      </Button>
+                      <Button size="sm" className="w-full">
+                        <Icon name="Download" size={16} className="mr-1" />
+                        Скачать
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+
+            {filteredLibrary.length === 0 && (
+              <Card className="border-2">
+                <CardContent className="py-12 text-center">
+                  <Icon name="SearchX" size={48} className="mx-auto mb-4 text-muted-foreground" />
+                  <h3 className="text-lg font-heading font-semibold mb-2">Материалы не найдены</h3>
+                  <p className="text-muted-foreground">
+                    Попробуйте изменить параметры поиска или фильтры
+                  </p>
+                </CardContent>
+              </Card>
+            )}
           </div>
         </div>
       </section>
@@ -546,6 +913,11 @@ export default function Index() {
                 <li>
                   <a href="#constructor" className="text-muted-foreground hover:text-primary transition-colors">
                     Конструктор плана
+                  </a>
+                </li>
+                <li>
+                  <a href="#library" className="text-muted-foreground hover:text-primary transition-colors">
+                    Библиотека
                   </a>
                 </li>
                 <li>
